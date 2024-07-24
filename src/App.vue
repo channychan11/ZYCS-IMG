@@ -1,15 +1,14 @@
 <template>
-  <a-watermark class="page_main" content="骤雨重山图床" :alpha="0.1">
+  <a-watermark class="page_main" content="channy图床" :alpha="0.1">
     <header>
-      <h1>骤雨重山图床</h1>
+      <h1>channy图床</h1>
       <h2>致力于为开发者提供便捷、免费、稳定、快速的图床服务。</h2>
       <div class="desc">
         <p>无限图片储存数量，你可以上传不限数量的图片！</p>
         <p>图片首次访问后缓存，"永久"有效，包括全球分布的 CDN，以确保尽可能快地提供图像.</p>
         <p>项目使用无服务器服务搭建，托管在 <a-tag color="gray"><template #icon><icon-cloud /></template>Cloudflare Pages</a-tag> 上运行.
         </p>
-        <p>开源地址： <a-link href="https://github.com/uxiaohan/ZYCS-IMG" target="_blank" icon>ZYCS-IMG</a-link></p>
-      </div>
+        </div>
     </header>
     <main>
       <a-upload draggable :action="ACTION_API" multiple :show-link="false" :image-preview="true"
